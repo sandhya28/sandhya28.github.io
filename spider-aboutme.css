@@ -1,0 +1,105 @@
+body 
+{
+    margin: 0;
+    background-image: url("back2.jpg");
+    font-size: 100%;
+}
+
+header  
+{
+    font-size: 3vw;
+    position: fixed;
+    margin-top: 0;
+    background-color: green;
+    text-align: center;
+    color: white;
+    font-family: "Berlin Sans FB";;
+    padding: 2%;
+    height: 10%;
+    width : 100%;
+}
+
+h1 
+{
+    font-family: "Berlin Sans FB";
+}
+
+p 
+{
+    font-family: "Comic Sans MS";
+    font-weight: bolder;
+    font-size: 1.7vw;
+    
+}
+
+img:not(#intro)
+{
+    float: right;
+    width: 30%;
+    height: 35%;
+    margin: 5px;
+}
+
+#intro 
+{
+    margin-top: 15%;
+    margin-left: 30%;
+    width: 30%;
+}
+
+ul 
+{
+    list-style-type: none;
+    margin: 15% 0;
+    padding: 0;
+    width: 25%;
+    position: fixed;
+    height: 100%;
+}
+
+li a:not(.active) 
+{
+    display: block;
+    color: #000;
+    padding: 8px;
+    margin: 5px 0px;
+    border: 1px;
+    background-color: #888;
+    color: white;
+    border: 1px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2vw;
+    font-family: "Comic Sans MS"
+}
+
+li a.active 
+{
+    display: block;
+    color: white;
+    padding: 8px;
+    margin: 5px 0px;
+    border: 1px;
+    background-color: green;
+    color: white;
+    border: 1px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2vw;
+    font-family: "Comic Sans MS"
+}
+
+li a:hover:not(.active) 
+{
+    background-color: #555;
+    color: white;
+    border-radius: 10px;
+}
+
+div 
+{
+    margin-left:25%;
+    padding:10% 5%;
+}

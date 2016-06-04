@@ -1,0 +1,50 @@
+body
+	{
+		background-image: url("back.jpg");
+	}
+
+.logo 
+	{
+		width: 20%;
+		height: 10%;
+	}
+
+img
+	{
+		width: 6%;
+		height: 10%;
+		cursor: pointer;
+		margin : 1px ;
+	}
+
+p
+	{
+		text-align: center;
+		font-style: "Comic Sans MS";
+		color: green;
+		font-weight: bolder;
+		font-size: 1.7vw;
+	}
+
+#opening
+	{
+		margin-top: 5%;
+	}
+
+#disp
+	{
+		margin-top: 3%;
+	}
+
+.button
+	{
+		background-color: green;
+    	color: white;
+    	padding: 1vw 2vw;
+    	text-align: center;
+    	border: none;
+    	border-radius: 10px;
+    	font-style: "Comic Sans MS";
+    	font-size: 1.2vw;
+    	cursor: pointer;
+	}

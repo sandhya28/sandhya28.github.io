@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>game</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script><!--including file such that jquery can be used -->
+	<link rel="stylesheet" type="text/css" href="spider-memogame.css">
+</head>
+<body>
+<div id="opening">
+<p>
+	<img class="logo" src="logo.jpg"><br><br>
+	SELECT MODE TO PLAY<br><br>
+	<input type="button" class="button" value="Bonus Mode" id="opt1"><br><br>
+	<input type="button" class="button" id="opt2" value="30 Second Challenge"><br><br>
+	<input type="button" class="button" id="opt3" value="One Minute Challenge"><br>
+</p>
+</div>
+<p id="timer"><br></p>
+<div id="bonusmode">
+
+	<p><input type="button" value="GO BACK" class="button" onclick="clickfn()"><br><br>
+		Click on the image to open it.<br>
+		Remember that each tile would be open only for a very short period of time.<br>
+		
+	</p>
+	<div id="disp"> <!--code written from jscript file is accomodated here -->
+		<p>
+		</p>
+	</div>
+</div>
+	<script type="text/javascript" src="spider-memogame.js"></script>
+</body>
+</html>
